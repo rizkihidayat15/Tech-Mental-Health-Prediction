@@ -1,0 +1,120 @@
+[
+    {
+        "message_type": "info",
+        "text": "Halo! 👋\nAku ***HealthyBot***, yang bakal nemenin kamu buat ngenalin **kesehatan mental** dan **level stres** kamu berdasarkan kebiasaan penggunaan teknologi. Salam kenal ya! 😄\n⚠️ Catatan kecil: hasil yang kamu dapat nanti bersifat prediksi dan dibuat berdasarkan dataset yang kami miliki.\nKalau kamu siap, yuk bantu aku jawab beberapa pertanyaan ringan biar hasilnya bisa lebih akurat 🙂"
+    },
+    {
+        "message_type":"question",
+        "text": "Apakah kamu siap? 🤔",
+        "question_type": "radio",
+        "options": ["Gass!!", "Nanti, deh"]
+    },
+    {
+        "message_type":"info",
+        "text": "Mantap! Ayo kita mulai! 😁"
+    },
+    {
+        "message_type":"question",
+        "text": "Pertanyaan pertama ya. Gender kamu apa? 👤",
+        "question_type": "radio",
+        "options": ["Wanita", "Pria"]
+    },
+    {
+        "message_type":"question",
+        "text": "Sekarang umur kamu berapa? 🎂",
+        "question_type": "slider100",
+        "label": "Umur"
+    },
+    {
+        "message_type":"question",
+        "text": "Dalam sehari, biasanya kamu ngeliat layar berapa jam? 🖥️",
+        "question_type": "slider24",
+        "label": "Durasi Layar"
+    },
+    {
+        "message_type":"question",
+        "text": "Kalau khusus HP, kamu pakai berapa jam sehari? 📱",
+        "question_type": "slider24",
+        "label": "Pakai HP"
+    },
+    {
+        "message_type":"question",
+        "text": "Laptop biasanya kamu pakai berapa jam dalam sehari? 💻",
+        "question_type": "slider24",
+        "label": "Pakai Laptop"
+    },
+    {
+        "message_type":"question",
+        "text": "Nah, kalau tablet, kira-kira berapa jam kamu pakai? 📲",
+        "question_type": "slider24",
+        "label": "Pakai Tablet"
+    },
+    {
+        "message_type":"question",
+        "text": "Kalau nonton TV, kamu habisin waktu sekitar berapa jam? 📺",
+        "question_type": "slider24",
+        "label": "Nonton TV"
+    },
+    {
+        "message_type":"info",
+        "text": "Mantap! Sudah setengah jalan. Yuk lanjut! 😀"
+    },
+    {
+        "message_type":"question",
+        "text": "Sehari kamu scrolling sosmed berapa jam? 📱",
+        "question_type": "slider24",
+        "label": "Scroll Sosmed"
+    },
+    {
+        "message_type":"question",
+        "text": "Kalau buat kerja atau tugas, biasanya kamu pakai berapa jam? 🧠",
+        "question_type": "slider24",
+        "label": "Untuk Kerja/Tugas"
+    },
+    {
+        "message_type":"question",
+        "text": "Dalam sehari, kamu pakai berapa jam buat hiburan? (kayak streaming, musik, santai, dll) 🎵",
+        "question_type": "slider24",
+        "label": "Hiburan"
+    },
+    {
+        "message_type":"question",
+        "text": "Buat main game, kamu habisin waktu berapa jam sehari? 🎮",
+        "question_type": "slider24",
+        "label": "Gaming"
+    },
+    {
+        "message_type":"question",
+        "text": "Biasanya kamu tidur berapa jam dalam sehari? 😴",
+        "question_type": "slider24",
+        "label": "Durasi Tidur"
+    },
+    {
+        "message_type":"question",
+        "text": "Dalam seminggu, kamu biasanya aktif bergerak atau olahraga berapa jam? 🏃",
+        "question_type": "slider168",
+        "label": "Olahraga"
+    },
+    {
+        "message_type":"question",
+        "text": "Sip, pertanyaan terakhir! Kamu tinggal di perdesaan (Rural), pinggir kota (Suburban), atau perkotaan (Urban)? 🏙️",
+        "question_type": "radio",
+        "options": ["Rural", "Suburban", "Urban"]
+    },
+    {
+        "message_type":"info",
+        "text": "Siap! 👍\nThanks udah bantu jawab pertanyaannya. Tunggu bentar ya, hasil prediksinya lagi diproses 😊"
+    },
+    {
+        "message_type":"info",
+        "text": "Berikut hasil prediksi aku mengenai kesehatan mental dan level stres kamu! 😊"
+    },
+    {
+        "message_type":"answer",
+        "text": "🧠 Mental Health: {a}\n⚡ Stress Level: {b}\n😊 Mood Rating : {c}"
+    },
+    {
+        "message_type":"info",
+        "text": "ℹ️ Info tambahan:\nPrediksi ini dihasilkan menggunakan metode K-Nearest Neighbor (KNN) berdasarkan 5.000 dataset yang kami miliki. Hasil ini bersifat perkiraan, jadi tetap gunakan sebagai referensi dan bijak dalam menyikapinya ya 🙌"
+    }
+]
